@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="bucket">
+        <div class="box1 box">
+            <label class="container">PayPal
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark"></span>
+            </label>
+            <div>
+                <table class="tabli">
+                    <tr>
+                        <td class="para"> Paypal is the faster, safer way to send money, recieve money <br>
+                            make an online payment. Account not needed.
+                        </td>
+                        <td><img id="paypal-logo" src="images/paypal.png" alt="paypal logo"></td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <label class="container credit">Credit Card
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+            <table class="tabli">
+                <tr>
+                    <td class="para">Safe money transfer with your bank account. <br>
+                        Visa, Master, Discover, Amex, JCB.</td>
+                    <td><img src="images/credit-card.png" alt="credit-card logo" id="credit-card"></td>
+                </tr>
+            </table>
+
+            <div class="dibba">
+                <form action="#">
+                    <label for="name">Name on Card <br>
+                        <input type="text" name="" id="name" class="top">
+                    </label>
+                    <br>
+                    <label for="no">Credit Card Number <br>
+                        <input type="number" name="" id="no" placeholder="8765 2376 9987 5267" class="top">
+                    </label>
+
+                    <div id="second-box">
+                        <div class="flex-child child1">
+                            <label for="cvv">CVV Code <br>
+                                <input type="number" name="" id="cvv" placeholder="238" class="todo top">
+                            </label>
+                        </div>
+                        <div class="flex-child child2">
+                            <label id="expiry" for="exp-date">Expiry Date <br>
+                                <input id="expiry" type="month" name="" id="exp-date" placeholder="MM/YY"
+                                    class="todo top">
+                            </label>
+                        </div>
+                    </div>
+                    <input type="button" value="CHECK OUT">
+                </form>
+            </div>
+        </div>
+        <div class="box2 box">
+            <img src="images/headphone.png" alt="headphone-img">
+        </div>
+    </div>
+</body>
+
+</html>
